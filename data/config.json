@@ -1,0 +1,7 @@
+{
+  "gitlabUrl": "https://gitlab.com/api/v4",
+  "userPrivateToken": "XX",
+  "projectId": 1,
+  "createBranchFrom": "master",
+  "mergeBranchTo": "master"
+}

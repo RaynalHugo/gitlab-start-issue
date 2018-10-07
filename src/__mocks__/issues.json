@@ -1,0 +1,1464 @@
+[
+  {
+    "id": 1324,
+    "iid": 1223,
+    "project_id": 27,
+    "title":
+      "Paramètres de mission perception liées à une StructurePlan plutôt que toute une mission",
+    "description": "",
+    "state": "opened",
+    "created_at": "2018-09-05T16:35:16.641Z",
+    "updated_at": "2018-09-07T10:08:52.742Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": ["0-A: Ready", "1-B: Should have", "2-C: Enhancement"],
+    "milestone": {
+      "id": 66,
+      "iid": 25,
+      "project_id": 27,
+      "title": "Sprint 25",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-25T23:44:52.100Z",
+      "updated_at": "2018-06-25T23:44:52.100Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/25"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": false,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1223",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1323,
+    "iid": 1222,
+    "project_id": 27,
+    "title": "Interface pour récupérer paramètres structures depuis new world",
+    "description":
+      "Valeurs affichées. Permet de les reporter facilement dans un json pour import par script.",
+    "state": "opened",
+    "created_at": "2018-09-05T16:18:23.043Z",
+    "updated_at": "2018-09-05T16:18:52.034Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "1-B: Should have",
+      "2-B: Feature",
+      "3-Cloud",
+      "4-HTB"
+    ],
+    "milestone": {
+      "id": 65,
+      "iid": 24,
+      "project_id": 27,
+      "title": "Sprint 24",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-21T06:05:43.347Z",
+      "updated_at": "2018-06-21T06:05:43.347Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/24"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1222",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1318,
+    "iid": 1217,
+    "project_id": 27,
+    "title": "Import données HTB de CLP et préparation des missions",
+    "description": "Données de 20 pylônes doivent être livrées prochainement",
+    "state": "opened",
+    "created_at": "2018-09-05T15:23:35.089Z",
+    "updated_at": "2018-09-05T15:24:20.304Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": ["0-A: Ready", "1-A: Must have", "2-D: Operations", "3-Cloud"],
+    "milestone": {
+      "id": 65,
+      "iid": 24,
+      "project_id": 27,
+      "title": "Sprint 24",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-21T06:05:43.347Z",
+      "updated_at": "2018-06-21T06:05:43.347Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/24"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1217",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1309,
+    "iid": 1208,
+    "project_id": 27,
+    "title": "New world Apollo optimistic response",
+    "description": "",
+    "state": "opened",
+    "created_at": "2018-09-04T16:14:13.332Z",
+    "updated_at": "2018-09-05T12:24:37.011Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": ["0-A: Ready", "1-B: Should have", "2-C: Enhancement", "3-Cloud"],
+    "milestone": {
+      "id": 65,
+      "iid": 24,
+      "project_id": 27,
+      "title": "Sprint 24",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-21T06:05:43.347Z",
+      "updated_at": "2018-06-21T06:05:43.347Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/24"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": false,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1208",
+    "time_stats": {
+      "time_estimate": 14400,
+      "total_time_spent": 0,
+      "human_time_estimate": "4h",
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1302,
+    "iid": 1201,
+    "project_id": 27,
+    "title": "Améliorations new world",
+    "description":
+      "* [ ] Rajouter un raccourci dans le bandeau (ou dans la page Missions) pour la création de mission\n* [ ] Quand on clic sur une mission dans Missions, rajouter une étape \"Planification\" avant \"Operation\" pour pouvoir visualiser le plan de mission de la mission sélectionnée?\n* [ ] les pylônes HTA ne s'affichent pas (sélectionner pylône ne change rien)\n* [ ] Changer les termes Lidar par Départs pour la liste où on peut choisir les structures à afficher\n* [ ] Remettre la barre de recherche (bien pratique pour rentrer des coordonnées GPS, le nom d'une ville, etc.)\n* [ ] Remettre le bouton home\n* [x] la boussole, en plus de réaligner avec le nord, réaligner sur la vue verticale\n* [ ] Les paramètres HTA s'affichent au lieu des paramètres HTB lorsqu'on sélectionne une structure HTB\n* [ ] Centrer la vue sur la location de l'utilisateur\n* [ ] Pourvoir afficher de manière indépendante les réseaux HTA/HTB\n* [ ] Bug à la création de mission HTB: les trajectoires ne suivent pas le `yaw` du `location` des pylônes, mais sont toujours alignées avec le Nord",
+    "state": "opened",
+    "created_at": "2018-09-02T12:01:54.607Z",
+    "updated_at": "2018-09-07T23:17:58.679Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "0-D: Epic",
+      "1-B: Should have",
+      "2-C: Enhancement",
+      "3-Cloud",
+      "4-HTB"
+    ],
+    "milestone": {
+      "id": 65,
+      "iid": 24,
+      "project_id": 27,
+      "title": "Sprint 24",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-21T06:05:43.347Z",
+      "updated_at": "2018-06-21T06:05:43.347Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/24"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1201",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1301,
+    "iid": 1200,
+    "project_id": 27,
+    "title": "Script pour import simple de structures HTB",
+    "description":
+      "En entrée prendre un JSON avec les caractéristiques des pylônes.\n\nDans un second temps, ce script pourra être appelé via une interface sur new world directement.",
+    "state": "closed",
+    "created_at": "2018-09-02T11:47:48.527Z",
+    "updated_at": "2018-09-05T15:21:04.416Z",
+    "closed_at": "2018-09-05T15:21:04.378Z",
+    "closed_by": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "labels": [
+      "0-C: Unclear",
+      "1-B: Should have",
+      "2-C: Enhancement",
+      "3-Cloud",
+      "4-HTB"
+    ],
+    "milestone": {
+      "id": 65,
+      "iid": 24,
+      "project_id": 27,
+      "title": "Sprint 24",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-21T06:05:43.347Z",
+      "updated_at": "2018-06-21T06:05:43.347Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/24"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 2,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1200",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1300,
+    "iid": 1199,
+    "project_id": 27,
+    "title": "Import données Omexom 7 Pylones",
+    "description":
+      "Données: \n\nhttps://drive.google.com/drive/folders/1p2BTtxXrL9aZn2NS5VQwC16_PMXw3PCj\n\nTravail à faire, dans l'ordre\n\n* [ ]  Utiliser les métadonnées des images vue de haut (genre ça https://drive.google.com/drive/u/1/folders/1_T_8laL4IwPHq3iKQH3_5ZJ2Tjo0hPEx ) Pour avoir la position des pylones. Utilisez Exiftool si besoin. #1215\n* [ ]  Créer les pylônes dans la DB proprement, avec les bonnes positions, pitch yaw roll etc...\n* [ ]  Créer une mission HTB d'inspection de ces 7 pylones dans la DB.\n* [ ]  Vous assurer que les lambdas permettent que les images soient correctement importées dans la DB, en particulier les infos nécéssaires (pitch yaw roll altitude latitude longitude) ne sont pas forcément au format DJI, donc il faut peut être modifier le code de la lambda imageImporter pour prendre en compte ce format.\n* [ ]  Une fois que vous êtes sûrs et certain que l'import se fait correctement, importer toutes les images, le image locator devrait faire son travail automatiquement et placer les images sur le bon pylône à chaque fois. #1216\n* [ ]  Vérifier en ligne que tout est bien importé sur le cloud\n* [ ]  Créer des détections et vérifier que le rapport se fait comme on veut, etc.\n\nRestera à faire le anomaly locator par la suite.",
+    "state": "opened",
+    "created_at": "2018-08-31T17:37:06.198Z",
+    "updated_at": "2018-09-05T16:20:46.166Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "1-A: Must have",
+      "2-D: Operations",
+      "3-Cloud",
+      "4-HTB"
+    ],
+    "milestone": {
+      "id": 65,
+      "iid": 24,
+      "project_id": 27,
+      "title": "Sprint 24",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-21T06:05:43.347Z",
+      "updated_at": "2018-06-21T06:05:43.347Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/24"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 2,
+      "name": "Vincent Lecrubier",
+      "username": "Vincent",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/2/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/Vincent"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 1,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": false,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1199",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1299,
+    "iid": 1198,
+    "project_id": 27,
+    "title": "Standardize mission types",
+    "description": "Standardize types of missions in perception, cloud and DB",
+    "state": "opened",
+    "created_at": "2018-08-28T05:43:05.106Z",
+    "updated_at": "2018-08-28T05:43:05.106Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "1-B: Should have",
+      "2-A: Quality",
+      "3-Cloud",
+      "3-Perception"
+    ],
+    "milestone": {
+      "id": 66,
+      "iid": 25,
+      "project_id": 27,
+      "title": "Sprint 25",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-25T23:44:52.100Z",
+      "updated_at": "2018-06-25T23:44:52.100Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/25"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1198",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1298,
+    "iid": 1197,
+    "project_id": 27,
+    "title":
+      "On world : first element to be inspected is unselected when setting the calibration position",
+    "description":
+      "To reproduce : go to world\n- Select first pylon\n- Select second pylon\n- Set calibration position on first pylon\n- Select third pylon\n\nThe red box on first pylon disappeared. Only a `clear Selection` allows recovering a red box when selecting the first pylon.",
+    "state": "opened",
+    "created_at": "2018-08-28T00:17:22.043Z",
+    "updated_at": "2018-08-28T00:17:22.043Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": ["0-B: Emergency", "1-A: Must have", "2-D: Bug", "3-Cloud"],
+    "milestone": {
+      "id": 66,
+      "iid": 25,
+      "project_id": 27,
+      "title": "Sprint 25",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-25T23:44:52.100Z",
+      "updated_at": "2018-06-25T23:44:52.100Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/25"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1197",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1290,
+    "iid": 1189,
+    "project_id": 27,
+    "title":
+      "remove hardcoded altitude of obstacles from cloud, and use altitude of obstacles",
+    "description":
+      "```\n{this.props.display.obstaclesDown === true ? (\n          \u003cGeoJson\n            data={this.props.obstaclesDownJson}\n            extrudedHeight={360}\n            options={{\n              clampToGround: false,\n              fill: tinycolor(error)\n                .setAlpha(0.15)\n                .toRgbString(),\n              stroke: error,\n              strokeWidth: 0\n            }}\n          /\u003e\n        ) : null}\n        {this.props.display.obstaclesUp === true ? (\n          \u003cGeoJson\n            data={this.props.obstaclesUpJson}\n            extrudedHeight={350}\n            options={{\n              clampToGround: false,\n              fill: tinycolor(error)\n                .setAlpha(0.5)\n                .toRgbString(),\n              stroke: error,\n              strokeWidth: 0\n            }}\n```",
+    "state": "opened",
+    "created_at": "2018-08-23T14:33:04.501Z",
+    "updated_at": "2018-09-07T10:07:33.547Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "1-A: Must have",
+      "2-C: Enhancement",
+      "3-Cloud",
+      "4-HTA",
+      "5-Cesium"
+    ],
+    "milestone": {
+      "id": 66,
+      "iid": 25,
+      "project_id": 27,
+      "title": "Sprint 25",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-25T23:44:52.100Z",
+      "updated_at": "2018-06-25T23:44:52.100Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/25"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 22,
+      "name": "Ouail Bendidi",
+      "username": "ouail.bendidi",
+      "state": "active",
+      "avatar_url":
+        "https://secure.gravatar.com/avatar/9a6a6a8d1af6f5607718ff80dc142385?s=80\u0026d=identicon",
+      "web_url": "https://gitlab.sterblue.com/ouail.bendidi"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1189",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1277,
+    "iid": 1176,
+    "project_id": 27,
+    "title": "Bug sur new world",
+    "description":
+      "Sur \n\nhttp://localhost:3000/world/mission/cjkwsndri0z9r0148d90a3o2e\n\nEn créant une mission sur new cloud\n\n```\nOh-no! Something's gone wrong!\nError: A cross-origin error was thrown. React doesn't have access to the actual error object in development. See https://fb.me/react-crossorigin-error for more information.\nThis error occurred here:\n\n    in Box\n    in ConsumerDirect (created by ConsumerDirect)\n    in ConsumerDirect (created by ConsumerComponent)\n    in ConsumerComponent (created by HtaPylon)\n    in HtaPylon (created by Query)\n    in Query (created by HtaPylon)\n    in HtaPylon (created by MissionPlan)\n    in CustomDataSource\n    in ConsumerDirect (created by ConsumerDirect)\n    in ConsumerDirect (created by ConsumerComponent)\n    in ConsumerComponent (created by MissionPlan)\n    in MissionPlan\n    in ConsumerDirect (created by ConsumerDirect)\n    in ConsumerDirect (created by ConsumerComponent)\n    in ConsumerComponent (created by Mission)\n    in Mission (created by MissionDetails)\n    in MissionDetails (created by Query)\n    in Query (created by MissionDetails)\n    in MissionDetails (created by Route)\n    in Route (created by MissionContentDetails)\n    in Switch (created by MissionContentDetails)\n    in MissionContentDetails (created by Route)\n    in Route (created by MissionContent)\n    in Switch (created by MissionContent)\n    in MissionContent (created by Route)\n    in Route (created by Content)\n    in Switch (created by Content)\n    in Content (created by Query)\n    in div (created by Styled(div))\n    in Styled(div) (created by Viewer)\n    in Viewer\n    in ConsumerDirectLoading (created by ConsumerDirectLoading)\n    in ConsumerDirectLoading (created by CesiumViewer)\n    in Provider (created by Provider)\n    in Provider (created by CesiumViewer)\n    in CesiumViewer (created by Query)\n    in div (created by glamorous(div))\n    in glamorous(div) (created by Content)\n    in Content (created by Query)\n    in div (created by glamorous(div))\n    in glamorous(div) (created by SideBar)\n    in SideBar (created by Query)\n    in Query (created by Query)\n    in Query (created by World)\n    in World (created by WithParsedUrlHoc)\n    in WithParsedUrlHoc (created by Route)\n    in Route (created by LoggedInApp)\n    in Switch (created by LoggedInApp)\n    in div (created by ProgressWrapper)\n    in ProgressWrapper (created by LoggedInApp)\n    in div (created by glamorous(div))\n    in glamorous(div) (created by AppBar)\n    in div (created by glamorous(div))\n    in glamorous(div) (created by AppBar)\n    in AppBar (created by LoggedInApp)\n    in div (created by glamorous(div))\n    in glamorous(div) (created by LoggedInApp)\n    in Router (created by Router)\n    in Router (created by LoggedInApp)\n    in LoggedInApp (created by ApolloConsumer)\n    in ApolloConsumer (created by withApollo(LoggedInApp))\n    in withApollo(LoggedInApp) (created by InjectIntl(withApollo(LoggedInApp)))\n    in InjectIntl(withApollo(LoggedInApp)) (created by Query)\n    in Query (created by Apollo(InjectIntl(withApollo(LoggedInApp))))\n    in Apollo(InjectIntl(withApollo(LoggedInApp))) (created by App)\n    in Router (created by Router)\n    in Router (created by App)\n    in App (created by InjectIntl(App))\n    in InjectIntl(App) (created by Query)\n    in Query (created by Apollo(InjectIntl(App)))\n    in Apollo(InjectIntl(App)) (created by Internationalisation)\n    in IntlProvider (created by Internationalisation)\n    in Internationalisation (created by Query)\n    in Query (created by Apollo(Internationalisation))\n    in Apollo(Internationalisation) (created by Mutation)\n    in Mutation (created by Apollo(Apollo(Internationalisation)))\n    in Apollo(Apollo(Internationalisation)) (created by Cloud)\n    in ApolloProvider (created by Cloud)\n    in Cloud\n    in AppContainer\n```",
+    "state": "opened",
+    "created_at": "2018-08-16T16:45:36.815Z",
+    "updated_at": "2018-09-04T16:25:05.893Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": ["0-B: Emergency", "1-A: Must have", "2-D: Bug", "3-Cloud"],
+    "milestone": {
+      "id": 65,
+      "iid": 24,
+      "project_id": 27,
+      "title": "Sprint 24",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-21T06:05:43.347Z",
+      "updated_at": "2018-06-21T06:05:43.347Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/24"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 2,
+      "name": "Vincent Lecrubier",
+      "username": "Vincent",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/2/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/Vincent"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": false,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1176",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1270,
+    "iid": 1169,
+    "project_id": 27,
+    "title":
+      "Pouvoir régler les paramètres d'inspection par structures sur le cloud",
+    "description":
+      "Sur new world il faut pouvoir personnaliser les paramètres d'inspection par structure :\n\n- hauteur min etc.\n- vitesses différentes dans les phases de transition vs dans les phases d'inspection",
+    "state": "opened",
+    "created_at": "2018-08-12T18:26:37.732Z",
+    "updated_at": "2018-08-12T18:26:37.732Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "1-B: Should have",
+      "2-C: Enhancement",
+      "3-Cloud",
+      "4-HTB"
+    ],
+    "milestone": {
+      "id": 66,
+      "iid": 25,
+      "project_id": 27,
+      "title": "Sprint 25",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-25T23:44:52.100Z",
+      "updated_at": "2018-06-25T23:44:52.100Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/25"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1169",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1258,
+    "iid": 1157,
+    "project_id": 27,
+    "title": "mettre au propre script import des pylônes HTB",
+    "description": "",
+    "state": "opened",
+    "created_at": "2018-08-06T05:30:13.074Z",
+    "updated_at": "2018-09-07T17:03:33.250Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": ["0-A: Ready", "1-B: Should have", "2-C: Enhancement", "3-Cloud"],
+    "milestone": {
+      "id": 65,
+      "iid": 24,
+      "project_id": 27,
+      "title": "Sprint 24",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-21T06:05:43.347Z",
+      "updated_at": "2018-06-21T06:05:43.347Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/24"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1157",
+    "time_stats": {
+      "time_estimate": 14400,
+      "total_time_spent": 0,
+      "human_time_estimate": "4h",
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1256,
+    "iid": 1155,
+    "project_id": 27,
+    "title":
+      "Perception HTB avoir des actions takePicture le long de la trajectoire",
+    "description":
+      "Mettre des WP avec actions `takePicture` de façon à couvrir la surface du pylône.\nLe nombre de WP doit donc dépendre de :\n- la distance d'inspection (plus on est loin moins on a besoin d'images)\n- de la focale, plus elle est grande plus il faut d'images pour couvrir le pylône",
+    "state": "opened",
+    "created_at": "2018-08-02T22:39:56.824Z",
+    "updated_at": "2018-08-02T22:39:56.824Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "1-B: Should have",
+      "2-C: Enhancement",
+      "3-Cloud",
+      "4-HTB"
+    ],
+    "milestone": {
+      "id": 66,
+      "iid": 25,
+      "project_id": 27,
+      "title": "Sprint 25",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-25T23:44:52.100Z",
+      "updated_at": "2018-06-25T23:44:52.100Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/25"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1155",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 0,
+      "human_time_estimate": null,
+      "human_total_time_spent": null
+    }
+  },
+  {
+    "id": 1250,
+    "iid": 1149,
+    "project_id": 27,
+    "title": "[New World] Création de la page + choix d'architecture",
+    "description":
+      "Histoire de partir sur les bonnes bases pour le new world, j'aimerai qu'on écrive noir sur blanc la structure que doit avoir la page. \n\n@Vincent peux tu répondre aux questions suivantes. \n\nVincent: On va essayer une approche un peut différente de d'habitude, pour voir. \n\n* A quel endroit dois-je créer le page \"world\" ? \n\n\n* A quel endroit je créé les composants associés au new world ? \n\n\n* A quel endroit je créé le container pour world ?\n\n\n* Comment j'organise mon pipeline du container de la page world ? Dois-je faire un container par composant \"stand alone\" ou dois-je tout mettre dans un même container ? (On en avait pas mal discuté à SF mais on n'a pas statué sur la question. A choisir je pense que je préfère l'approche \"stand-alone\".)\n\n\n* Le composant world sera le seul composant avec un state. Est-ce que l'architecture suivante te convient.\n    - Dans le state je store : \n       - Le mode (\"select\", \"edit\" ...)\n       - Le path actuel ([\"mission\", \"execution\", \"images\", \"cfejxxxxx89\"]) \n    - Depuis les props (container), je récupère : \n       - L'id de mission\n       - Quelques informations génériques sur la mission (les informations supplémentaires sont query au fur et à mesure si on par sur l'approche des composants stand-alone). \n \n## Réponse\n\nOn va prendre une approche un peu différente de d'habitude, j'ai envie de tester l'approche \"stand-alone\" comme tu dis. En utilisant les composants apollo avec render props.\n\nVoici la file structure a faire:\n\n```\nsrc/\n  connectors/\n    apollo/\n      defaults/       // L'état initial, ajouter ce qu'il faut pour faire l'état du world           \n      resolvers/      // Les resolvers de state, ajouter ce qu'il faut pour gérer l'état global du world\n                      // ATTENTION ! l'url peut aussi contenir des infos. \n                      // Il peut être pertinent de stocker certaines infos dans l'url au delà de la route, \n                      // en utilisant des paramètres supplémentaires avec le package npm query-string\n                      // exemple: \n                      // cloud.sterblue.com/world/missions?selection=[\"cjdiejdhd736273\"]\u0026edit=true\n                      // \n                      // Donc en fait cela minimise les paramètres à stocker dans apollo\n  components/\n    atoms/            // Tous les composants atoms réellement réutilisables et génériques\n    molecules/        // Tous les composants molecules réellement réutilisables et génériques\n    organisms/        // Tous les composants organisms réellement réutilisables et génériques\n\n  containers/\n    world/            // C'est là que tout se passe presque\n      index.js        // le container/component principal avec les infos générales, \n                      // mélangeant des apollo `\u003cQuery /\u003e` render props et le layout général avec sidebar etc. .\n                      // Le contenu des sidebar et du content est délégué aux 3 fichiers suivants dans la liste.\n      content.js      // Le contenu du cesium globe. Ce fichier contient un `\u003cSwitch/\u003e` de react-router, \n                         pour afficher différents contenus dans le globe en fonction de la route courante.\n      left.js         // Le contenu de la sidebar de gauche. Il contient un `\u003cSwitch/\u003e` de react-router, \n                         pour afficher différents contenus dans la sidebar en fonction de la route courante.\n      right.js        // Le contenu de la sidebar de droite. Il contient un `\u003cSwitch/\u003e` de react-router, \n                         pour afficher différents contenus dans la sidebar en fonction de la route courante.\n      missions/       // La route missions et ses sous routes\n        content.js    // Le contenu du globe quand on est dans la route missions\n        left.js       // Le contenu de la side bar de gauche quand on est dans la route missions\n        right.js      // Le contenu de la side bar de droite quand on est dans la route missions\n        details/      // La route missions/:id \n          content.js  // Le contenu du globe quand on est dans la route missions/:id\n          left.js     // Le contenu de la side bar de gauche quand on est dans la route missions/:id\n          right.js    // Le contenu de la side bar de droite quand on est dans la route missions/:id\n      structures/     // La route structures et ses sous routes\n        content.js    // Le contenu du globe quand on est dans la route structures\n        left.js       // Le contenu de la side bar de gauche quand on est dans la route structures\n        right.js      // Le contenu de la side bar de droite quand on est dans la route structures\n        details/      // La route structures/:id \n          content.js  // Le contenu du globe quand on est dans la route structures/:id\n          left.js     // Le contenu de la side bar de gauche quand on est dans la route structures/:id\n          right.js    // Le contenu de la side bar de droite quand on est dans la route structures/:id\n```\n\nPour ce qui est du stockage du state j'ai un peu répondu ci dessus, mais je reprécise:\n\n       - Le mode (\"select\", \"edit\" ...) stocké dans l'url et décodé à partir de la props `match` et du package npm `query-string`\n       - Le path actuel ([\"mission\", \"execution\", \"images\", \"cfejxxxxx89\"])  est stocké dans l'url\n\nEst-ce que tu vois d'autres choses à définir dès maintenant ?",
+    "state": "closed",
+    "created_at": "2018-08-01T16:47:22.238Z",
+    "updated_at": "2018-08-06T14:10:18.199Z",
+    "closed_at": "2018-08-06T14:10:18.190Z",
+    "closed_by": null,
+    "labels": [
+      "0-C: Unclear",
+      "1-A: Must have",
+      "2-B: Feature",
+      "3-Cloud",
+      "5-Cesium",
+      "5-React"
+    ],
+    "milestone": {
+      "id": 63,
+      "iid": 22,
+      "project_id": 27,
+      "title": "Sprint 22",
+      "description": "",
+      "state": "closed",
+      "created_at": "2018-06-21T06:05:33.294Z",
+      "updated_at": "2018-08-06T16:19:57.356Z",
+      "due_date": "2018-08-02",
+      "start_date": "2018-07-17",
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/22"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 2,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1149",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 7200,
+      "human_time_estimate": null,
+      "human_total_time_spent": "2h"
+    }
+  },
+  {
+    "id": 1221,
+    "iid": 1120,
+    "project_id": 27,
+    "title": "Ajouter pylône essais HTB Nantes à DB",
+    "description":
+      "Données des pylônes renseignées ici : https://docs.google.com/spreadsheets/d/1CIqhYdaKgj3yfjia-fob7uN5-pi9S2y5gVTAe5rTnkY/edit#gid=0",
+    "state": "closed",
+    "created_at": "2018-07-23T11:57:40.694Z",
+    "updated_at": "2018-08-03T12:53:58.849Z",
+    "closed_at": "2018-08-03T12:53:58.842Z",
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "0-B: Emergency",
+      "1-B: Should have",
+      "2-D: Operations",
+      "3-Cloud",
+      "4-HTB"
+    ],
+    "milestone": {
+      "id": 63,
+      "iid": 22,
+      "project_id": 27,
+      "title": "Sprint 22",
+      "description": "",
+      "state": "closed",
+      "created_at": "2018-06-21T06:05:33.294Z",
+      "updated_at": "2018-08-06T16:19:57.356Z",
+      "due_date": "2018-08-02",
+      "start_date": "2018-07-17",
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/22"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1120",
+    "time_stats": {
+      "time_estimate": 7200,
+      "total_time_spent": 1800,
+      "human_time_estimate": "2h",
+      "human_total_time_spent": "30m"
+    }
+  },
+  {
+    "id": 1202,
+    "iid": 1101,
+    "project_id": 27,
+    "title":
+      "Intégrer données Omexom dans database pour pouvoir générer trajectoires",
+    "description":
+      "Les données Omexom sont ici : https://docs.google.com/spreadsheets/d/1FS15VyUMTle7KPalKtgWaZYK9uU1Fv09lz_kO7zbv8I/edit#gid=709481739",
+    "state": "closed",
+    "created_at": "2018-07-17T17:12:52.080Z",
+    "updated_at": "2018-08-03T12:53:55.813Z",
+    "closed_at": "2018-08-03T12:53:55.804Z",
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "1-A: Must have",
+      "2-D: Operations",
+      "3-Cloud",
+      "4-HTB"
+    ],
+    "milestone": {
+      "id": 63,
+      "iid": 22,
+      "project_id": 27,
+      "title": "Sprint 22",
+      "description": "",
+      "state": "closed",
+      "created_at": "2018-06-21T06:05:33.294Z",
+      "updated_at": "2018-08-06T16:19:57.356Z",
+      "due_date": "2018-08-02",
+      "start_date": "2018-07-17",
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/22"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1101",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 12600,
+      "human_time_estimate": null,
+      "human_total_time_spent": "3h 30m"
+    }
+  },
+  {
+    "id": 1201,
+    "iid": 1100,
+    "project_id": 27,
+    "title": "Prise en compte des angles de virage dans HTB perception",
+    "description": "See #949",
+    "state": "closed",
+    "created_at": "2018-07-17T17:08:49.793Z",
+    "updated_at": "2018-08-03T12:12:15.850Z",
+    "closed_at": "2018-08-03T12:12:15.810Z",
+    "closed_by": null,
+    "labels": [
+      "0-A: Ready",
+      "1-A: Must have",
+      "2-C: Enhancement",
+      "3-Perception"
+    ],
+    "milestone": {
+      "id": 63,
+      "iid": 22,
+      "project_id": 27,
+      "title": "Sprint 22",
+      "description": "",
+      "state": "closed",
+      "created_at": "2018-06-21T06:05:33.294Z",
+      "updated_at": "2018-08-06T16:19:57.356Z",
+      "due_date": "2018-08-02",
+      "start_date": "2018-07-17",
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/22"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 2,
+      "name": "Vincent Lecrubier",
+      "username": "Vincent",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/2/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/Vincent"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 0,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": false,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1100",
+    "time_stats": {
+      "time_estimate": 0,
+      "total_time_spent": 72000,
+      "human_time_estimate": null,
+      "human_total_time_spent": "2d 4h"
+    }
+  },
+  {
+    "id": 1195,
+    "iid": 1094,
+    "project_id": 27,
+    "title": "Changer fond de carte par défaut sur world",
+    "description": "Mettre la carte bing **avec** labels",
+    "state": "closed",
+    "created_at": "2018-07-17T15:47:52.617Z",
+    "updated_at": "2018-08-06T05:40:51.809Z",
+    "closed_at": "2018-08-03T12:57:05.242Z",
+    "closed_by": null,
+    "labels": ["0-A: Ready", "1-B: Should have", "2-C: Enhancement", "3-Cloud"],
+    "milestone": {
+      "id": 63,
+      "iid": 22,
+      "project_id": 27,
+      "title": "Sprint 22",
+      "description": "",
+      "state": "closed",
+      "created_at": "2018-06-21T06:05:33.294Z",
+      "updated_at": "2018-08-06T16:19:57.356Z",
+      "due_date": "2018-08-02",
+      "start_date": "2018-07-17",
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/22"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 1,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1094",
+    "time_stats": {
+      "time_estimate": 1800,
+      "total_time_spent": 600,
+      "human_time_estimate": "30m",
+      "human_total_time_spent": "10m"
+    }
+  },
+  {
+    "id": 1179,
+    "iid": 1078,
+    "project_id": 27,
+    "title":
+      "Sur world : pouvoir changer le 1er support d'inspection sans avoir à tout déselectionner",
+    "description": "",
+    "state": "opened",
+    "created_at": "2018-07-17T09:24:03.281Z",
+    "updated_at": "2018-09-07T10:07:41.827Z",
+    "closed_at": null,
+    "closed_by": null,
+    "labels": ["0-A: Ready", "1-B: Should have", "2-C: Enhancement", "3-Cloud"],
+    "milestone": {
+      "id": 66,
+      "iid": 25,
+      "project_id": 27,
+      "title": "Sprint 25",
+      "description": "",
+      "state": "active",
+      "created_at": "2018-06-25T23:44:52.100Z",
+      "updated_at": "2018-06-25T23:44:52.100Z",
+      "due_date": null,
+      "start_date": null,
+      "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/milestones/25"
+    },
+    "assignees": [
+      {
+        "id": 26,
+        "name": "Hugo Raynal",
+        "username": "hugo.raynal",
+        "state": "active",
+        "avatar_url":
+          "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+        "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+      }
+    ],
+    "author": {
+      "id": 4,
+      "name": "Nicolas Draber",
+      "username": "nicolas",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/4/avatar.png",
+      "web_url": "https://gitlab.sterblue.com/nicolas"
+    },
+    "assignee": {
+      "id": 26,
+      "name": "Hugo Raynal",
+      "username": "hugo.raynal",
+      "state": "active",
+      "avatar_url":
+        "https://gitlab.sterblue.com/uploads/-/system/user/avatar/26/a.jpg",
+      "web_url": "https://gitlab.sterblue.com/hugo.raynal"
+    },
+    "user_notes_count": 1,
+    "upvotes": 0,
+    "downvotes": 0,
+    "due_date": null,
+    "confidential": true,
+    "discussion_locked": null,
+    "web_url": "https://gitlab.sterblue.com/Sterblue/Sterblue/issues/1078",
+    "time_stats": {
+      "time_estimate": 14400,
+      "total_time_spent": 0,
+      "human_time_estimate": "4h",
+      "human_total_time_spent": null
+    }
+  }
+]
