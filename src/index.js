@@ -15,52 +15,53 @@ import createBranchName from "./gitlab/createBranchName";
 import getCurrentMilestoneFromMilestones from "./gitlab/getCurrentMilestoneFromMilestones";
 
 async function main() {
-  console.clear();
-  displayStartMessage();
+	console.clear();
+	displayStartMessage();
 
-  const store = await initStore();
-  await store.clear();
-  await readConfig(store);
+	const store = await initStore();
+	await store.clear();
+	await readConfig(store);
 
-  let userPrivateToken = await store.getItem("userPrivateToken");
+	let userPrivateToken = await store.getItem("userPrivateToken");
 
-  if (isNil(userPrivateToken)) {
-    // if (true) {
-    userPrivateToken = await askForUserPrivateToken();
-    await store.setItem("userPrivateToken", userPrivateToken);
-  }
+	if (isNil(userPrivateToken)) {
+		// if (true) {
+		userPrivateToken = await askForUserPrivateToken();
+		await store.setItem("userPrivateToken", userPrivateToken);
+	}
 
-  const client = new Client();
+	const client = new Client();
 
-  client.setStore(store);
-  await client.init();
+	client.setStore(store);
+	await client.init();
 
-  let user = await store.getItem("user");
-  if (isNil(user)) {
-    await client.getUser();
-  }
+	let user = await store.getItem("user");
+	if (isNil(user)) {
+		await client.getUser();
+	}
 
-  const milestones = await client.getMilestones();
+	const milestones = await client.getMilestones();
+	console.log(milestones);
 
-  await store.setItem(
-    "milestone",
-    getCurrentMilestoneFromMilestones(milestones)
-  );
+	await store.setItem(
+		"milestone",
+		getCurrentMilestoneFromMilestones(milestones)
+	);
 
-  const issues = await client.getIssues();
+	const issues = await client.getIssues();
 
-  const issueId = await selectIssue(sortBy(["iid"], issues));
-  const issue = find(issue => get("iid", issue) === issueId, issues);
-  const branchName = createBranchName(issue);
+	const issueId = await selectIssue(sortBy(["iid"], issues));
+	const issue = find(issue => get("iid", issue) === issueId, issues);
+	const branchName = createBranchName(issue);
 
-  if (!isNil(branchName)) {
-    await client.createBranch(branchName);
-    await client.createMergeRequest(branchName);
-  }
+	if (!isNil(branchName)) {
+		await client.createBranch(branchName);
+		await client.createMergeRequest(branchName);
+	}
 
-  console.log(`created branch: ${branchName}`);
+	console.log(`created branch: ${branchName}`);
 
-  // console.log(branchName);
+	// console.log(branchName);
 }
 
 main();
